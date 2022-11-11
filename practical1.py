@@ -15,8 +15,6 @@ while True:
 
 <aiml version="1.0.1">
 
-
-
 <category>
 <pattern>HI</pattern>
 <template>
@@ -36,27 +34,6 @@ while True:
 <template>the day of the week before Tuesday and following Sunday</template>
 </category>
 <category>
-<pattern>TUESDAY</pattern>
-<template>the day of the week before Wednesday and following Monday</template>
-</category>
-<category>
-<pattern>WEDNESDAY</pattern>
-<template>the day of the week before Thursday and following Tuesday</template>
-</category>
-<category>
-<pattern>THURSDAY</pattern>
-<template>the day of the week before Friday and following Wednesday</template>
-</category>
-<category>
-<pattern>FRIDAY</pattern>
-<template>the day of the week before Saturday and following Thursday</template>
-</category>
-<category>
-<pattern>SATURDAY</pattern>
-<template>the day of the week before Sunday and following Friday</template>
-</category>
-
-
 
 </aiml>
 
