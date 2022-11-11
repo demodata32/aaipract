@@ -35,6 +35,28 @@ while True:
 </category>
 <category>
 
+<category>
+<pattern>WHAT IS *</pattern>
+<template><set name="username"><star/></set></template>
+</category>
+
+<category>
+<pattern>WHAT ABOUT MOVIES</pattern>
+<template>Do you like comedy movies</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>Do you like comedy movies</that>
+<template>Nice I like comdey movies too</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>Do you like comedy movies</that>
+<template>Sorry I like comdey movies too</template>
+</category>
+
 </aiml>
 
 # std-startup.xml
